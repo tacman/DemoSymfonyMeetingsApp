@@ -1,0 +1,11 @@
+default:
+    suites:
+        default:
+            contexts:
+                - App\Tests\Behat\MeetingsContext
+                - App\Tests\Behat\RateMeetingsContext
+
+    extensions:
+        FriendsOfBehat\SymfonyExtension:
+            kernel:
+                class: App\Kernel
