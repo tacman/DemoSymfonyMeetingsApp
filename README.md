@@ -1,5 +1,13 @@
 # Demo Meetings App
 
+![Database Diagram](/assets/images/db.svg)
+
+## Notes
+
+No UI, some tests including behat.
+
+Updated to Symfony 6.4 on May 9, 2025 by Tac.
+
 ## Getting Started
 
 1. Have Docker / Docker Desktop installed on local computer
